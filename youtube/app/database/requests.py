@@ -7,7 +7,7 @@ from sqlalchemy import select, update
 from sqlalchemy.ext.asyncio import create_async_engine
 from sqlalchemy.ext.declarative import declarative_base
 
-from youtube.app.database.models import Something_new, User_message, Anonymous_user_message, Pixel
+from app.database.models import Something_new, User_message, Anonymous_user_message, Pixel
 
 
 async def send_something_new():
