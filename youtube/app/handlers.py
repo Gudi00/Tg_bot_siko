@@ -8,7 +8,7 @@ from aiogram.fsm.context import FSMContext
 import app.keyboards as kb
 import app.database.requests as rq
 
-from youtube.app.database.requests import send_something_new
+from app.database.requests import send_something_new
 
 router = Router()
 bot = Bot(token='6988960612:AAHzHP4MU3oLDcygDMbYjkCvXIZQGRtHyLw')
